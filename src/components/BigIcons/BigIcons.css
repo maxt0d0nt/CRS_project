@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.col {
+   
+    margin-left: 30px;
+      
+}
+
+.circule-container{
+    display: flex;
+    height: 170px;
+    width: 170px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: auto;      
+}
+
+.icon-circle {
+    position: absolute;
+    height: auto;
+    width: auto;
+    border-radius: 50%;
+    border: 5px #0D31C0 solid;
+    border-style: solid;
+    padding: 30px;
+   
+}
+
+.icon-circle:hover {
+    background-color: #FFC300;
+}
+
+.row {
+    width: 100%;
+    
+}
+
+.icon-title {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-family: Oswald;
+    font-weight: 600;
+}

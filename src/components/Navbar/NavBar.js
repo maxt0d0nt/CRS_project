@@ -1,29 +1,42 @@
-import React from 'react'
-import { IconLogo, Menu, MenuItem, MenuItemLinks, NavbarContainer, NavbarWrapper } from './NavBar_Elements';
-import { AiOutlineAliwangwang } from "react-icons/ai";
+import React, { useState } from 'react'
+import { IconLogo, IconLogoMobile, Menu, MenuItem, MenuItemLinks, NavbarContainer, NavbarWrapper } from './NavBar_Elements';
+import { FaBars } from "react-icons/fa";
+import { FaPlane } from "react-icons/fa";
+import { FaRegTimesCircle } from "react-icons/fa";
 
 export const NavBar = () => {
+
+  const [click, setClick] = useState(false);
+
+  const ChangeClick = () => {
+    setClick(!click);
+  }
+
   return (
     <>
     <NavbarContainer>
       <NavbarWrapper>
         <IconLogo>
-          <AiOutlineAliwangwang size={"2em"}/>
           CRS
+          <FaPlane size={"0.6em"}/>
         </IconLogo>
 
-       <Menu>
+        <IconLogoMobile onClick={() => ChangeClick()}>
+          {click ? <FaRegTimesCircle size={"1.5em"}/> : <FaBars size={"1.5em"} />}
+        </IconLogoMobile>
+
+       <Menu click={click}>
          <MenuItem>
-          <MenuItemLinks>HOME</MenuItemLinks>
+          <MenuItemLinks onClick={() => ChangeClick()}>HOME</MenuItemLinks>
          </MenuItem>
          <MenuItem>
-          <MenuItemLinks>SERVICIOS</MenuItemLinks>
+          <MenuItemLinks onClick={() => ChangeClick()}>SERVICIOS</MenuItemLinks>
          </MenuItem>
          <MenuItem>
-          <MenuItemLinks>¿QUIENES SOMOS?</MenuItemLinks>
+          <MenuItemLinks onClick={() => ChangeClick()}>¿QUIENES SOMOS?</MenuItemLinks>
          </MenuItem>
          <MenuItem>
-          <MenuItemLinks>CONTACTO</MenuItemLinks>
+          <MenuItemLinks onClick={() => ChangeClick()}>CONTACTO</MenuItemLinks>
          </MenuItem>
        </Menu>
       </NavbarWrapper>

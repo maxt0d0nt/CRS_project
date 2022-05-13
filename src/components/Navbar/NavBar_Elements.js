@@ -1,8 +1,9 @@
 import styled from "styled-components";
+import './NavBar.css'
 
 export const NavbarContainer = styled.div`
     width: 100%;
-    height: 88px;
+    height: 75px;
     position: sticky;
     top: 8;
     z-index: 99;
@@ -13,12 +14,11 @@ export const NavbarContainer = styled.div`
 export const NavbarWrapper = styled.div`
     margin: auto;
     width: 100%;
-    max-width: 1300px;
+    max-width: 1400px;
     height: 100%;
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
-    
     
 `;
 
@@ -37,7 +37,19 @@ export const Menu = styled.ul`
 height: 100%;
 display: flex;
 justify-content: center;
-align-items: center;
+
+
+@media screen and (max-width: 968px) {
+    width: 100%;
+    height: 62vh;
+    position: absolute;
+    top: 87px;
+    top: ${({click}) => (click ? 0 : "-98vh")};
+    flex-direction: column;
+    transition: 0.5s all ease-in;
+    background-color: #0D31C0;
+    z-index: -10;
+}
 
 `;
 
@@ -51,12 +63,17 @@ font-size: 1.2rem;
 font-family: "Oswald";
 font-weigth:400;
 
+
 &:hover {
     background-color: #6E7BF9;
     border-bottom: 0.3rem solid #FFC300;
-    transition: 0.5s case-in;
-    
+    transition: 0.2s ease-in;
+}
 
+@media screen and (max-width: 968px) {
+    width: 93%;
+    height: 80px;
+    margin-left: 0px;
 }
 
 `;
@@ -66,3 +83,15 @@ text-decoration: none;
 color: #fff
 `;
 
+export const IconLogoMobile = styled.div`
+    display: none;
+
+    @media screen and (max-width: 968px) {
+        display: flex;
+        color: #FFF;
+        font-size: 20px;
+        padding: 30px;
+
+    }
+
+`;
