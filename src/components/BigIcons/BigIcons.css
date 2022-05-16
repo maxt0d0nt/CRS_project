@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+.container-md-9 {
+    background: url(../../Imagenes/wave.svg) no-repeat center center;
+    background-size: cover
+}
+
 
 .col {
    

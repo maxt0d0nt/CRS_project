@@ -39,7 +39,7 @@ export const BigIcons = () => {
         <div className='circule-container'>
             <div className='icon-circle'>
               <div className='icon-home'>
-                < FaTruck size={"5em"} color={"#0D31C0"}/>
+                < FaTruck size={"5em"} color={"#0D31C0"} />
               </div>        
             </div>
           </div>
