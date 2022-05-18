@@ -6,8 +6,8 @@
 .container-how {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    margin-top: 15px;
-    padding: 30px;
+    margin-top: 40px;
+    padding: 40px;
     background: url(../../Imagenes/waveDown.svg) no-repeat center center;
     background-size: cover
 }
@@ -69,5 +69,11 @@ img .visible {
 .descripcion {
     margin: 15px;
     padding: 15px;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 400;
+    
 }
 

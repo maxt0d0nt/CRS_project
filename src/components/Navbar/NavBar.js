@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import { IconLogo, IconLogoMobile, Menu, MenuItem, MenuItemLinks, NavbarContainer, NavbarWrapper } from './NavBar_Elements';
 import { FaBars } from "react-icons/fa";
-import { FaPlane } from "react-icons/fa";
 import { FaRegTimesCircle } from "react-icons/fa";
+import logo from '../../Imagenes/logo crs.jpg'
+
 
 export const NavBar = () => {
 
@@ -17,8 +18,7 @@ export const NavBar = () => {
     <NavbarContainer>
       <NavbarWrapper>
         <IconLogo>
-          CRS
-          <FaPlane size={"0.6em"}/>
+        <img className="d-block w-100" src={logo} alt="logo" height={"65px"} />
         </IconLogo>
 
         <IconLogoMobile onClick={() => ChangeClick()}>
@@ -26,17 +26,21 @@ export const NavBar = () => {
         </IconLogoMobile>
 
        <Menu click={click}>
+         
          <MenuItem>
-          <MenuItemLinks onClick={() => ChangeClick()}>HOME</MenuItemLinks>
-         </MenuItem>
-         <MenuItem>
+          <a href='#section-send'>
           <MenuItemLinks onClick={() => ChangeClick()}>SERVICIOS</MenuItemLinks>
+          </a>
          </MenuItem>
          <MenuItem>
+          <a href='#section-who'>
           <MenuItemLinks onClick={() => ChangeClick()}>¿QUIENES SOMOS?</MenuItemLinks>
+          </a>
          </MenuItem>
          <MenuItem>
+          <a href='#section-contact'>
           <MenuItemLinks onClick={() => ChangeClick()}>CONTACTO</MenuItemLinks>
+          </a>
          </MenuItem>
        </Menu>
       </NavbarWrapper>

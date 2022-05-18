@@ -9,7 +9,7 @@ export const Who = () => {
   return (
 
     <>
-    <div className='container-who'>
+    <div className='container-who' id='section-who'>
         <div className='row-who'>
             <div className='square'> </div>
             <div className='circle-row'></div>

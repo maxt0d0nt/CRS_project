@@ -5,9 +5,9 @@ export const NavbarContainer = styled.div`
     width: 100%;
     height: 75px;
     position: sticky;
-    top: 8;
+    top: 0;
     z-index: 99;
-    background-color: #0D31C0;
+    background-color: #1F4391;
 
 `;
 
@@ -26,9 +26,8 @@ export const IconLogo = styled.div`
 display: flex;
 flex-wrap: wrap;
 justify-content: flex-start;
-align-items: center;
+margin-top: 5px;
 font-family: "Oswald";
-font-size: 2.6rem;
 color: #FFC300;
 
 `;

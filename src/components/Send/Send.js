@@ -5,7 +5,7 @@ import slider2 from '../../Imagenes/slider2.jpg';
 export const Send = () => {
   return (
     <>
-    <div className='container-send'>
+    <div className='container-send' id='section-send'>
         <div className='row-send'>
             <div className='descripcion'>
                 <h2>¿Que Puedes Enviar?</h2>
