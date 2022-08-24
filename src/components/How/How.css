@@ -4,37 +4,39 @@
 }
 
 .container-how {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 40px;
     padding: 40px;
     background: url(../../Imagenes/waveDown.svg) no-repeat center center;
-    background-size: cover
+    background-size: cover;
+    justify-content: space-around;
+    
 }
 
 .row-how {
-    width: 800px;
-    height: 400px;
-    position: relative
+    width: 400px;
+  height: 300px;
+    position: relative;
+    
 }
 
 .square-how {
     position: absolute;
-    height: 240px;
-    width: 400px;
+    height: 180px;
+    width: 90%;
     background-color: #0D31C0;
     opacity: 0.7;
     border-radius: 5px;
     margin-top: 20px;
-    margin-left: 80px;
+    margin-left: 10px;
     z-index: 10;
-    position: absolute;
- 
+     
 }
 
 .circle-row {
 
-    height: 180px;
+    height: 300px;
     width: 180px;
     background-color: #FFC300;
     opacity: 0.9;
@@ -47,17 +49,13 @@
 }
 
 .image-how {
-    height: 350px;
-    width: 600px;
+    height: 180px;
+    width: 90%;
     margin-top: 35px;
-    margin-left: 120px;
+    margin-left: 20px;
     position: absolute;
     z-index: 30;
     overflow: hidden;
-
-    /*opacity: 0;
-    transform: scale (0.9);
-    transition: .7s ease-in-out all;*/
     
 }
 
@@ -66,14 +64,8 @@ img .visible {
     transform: scale(1);
 }
 
-.descripcion {
+.descripcion-how {
     margin: 15px;
     padding: 15px;
+    width: 90%;
 }
-
-p {
-    font-size: 24px;
-    font-weight: 400;
-    
-}
-

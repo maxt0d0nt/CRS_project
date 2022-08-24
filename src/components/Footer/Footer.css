@@ -15,8 +15,8 @@
     align-items: center;
     width: 100%;
     align-content: space-between;
-    position: absolute
-    
+    position: absolute;
+
 }
 
 .g-col-6 {
@@ -24,7 +24,7 @@
     margin: 10px;
     width: 33%;
     padding-left: 45px;
-        
+            
 }
 
 .icon {
@@ -52,5 +52,73 @@ a:link {
     
     background-color: transparent;
     text-decoration: none;
+  }
+
+  @media screen and (max-width: 767px) {
+
+    .container-footer {
+        width: 100%;
+        background-color: #1F4391;
+        display: absolute;
+        height: 400px;
+
+        
+    }
+    
+    .grid-footer {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        align-items: center;
+        align-content: space-between;
+        position: absolute;  
+        height: 300px;
+
+    }
+
+    .icon {
+        display: block;
+    }
+    
+    .g-col-6 {
+        margin: 10px;
+        padding-left: 45px;
+        height: 300px;
+
+          
+    }
+    
+    .icon {
+        padding: 10px;
+    }
+    
+    
+    p {
+        margin: 1px;
+        padding: 1px;
+        font-weight: 300;
+    }
+    
+    p-1 {
+        font-weight: 400;
+    }
+    
+    a:hover {
+        color: #FFC300;
+        background-color: transparent;
+        
+      }
+    
+    a:link {
+        
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+    .g-col-6.text {
+        display: none;
+    }
+
+
   }
   

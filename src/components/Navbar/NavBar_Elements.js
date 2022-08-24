@@ -38,7 +38,7 @@ display: flex;
 justify-content: center;
 
 
-@media screen and (max-width: 968px) {
+@media screen and (max-width: 767px) {
     width: 100%;
     height: 62vh;
     position: absolute;
@@ -69,7 +69,7 @@ font-weigth:400;
     transition: 0.2s ease-in;
 }
 
-@media screen and (max-width: 968px) {
+@media screen and (max-width: 767px) {
     width: 93%;
     height: 80px;
     margin-left: 0px;
@@ -85,7 +85,7 @@ color: #fff
 export const IconLogoMobile = styled.div`
     display: none;
 
-    @media screen and (max-width: 968px) {
+    @media screen and (max-width: 767px) {
         display: flex;
         color: #FFF;
         font-size: 20px;

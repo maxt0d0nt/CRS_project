@@ -4,58 +4,54 @@
 }
 
 .container-who {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
     padding: 40px;
+    justify-content: space-around;
+    
 }
 
 .row-who {
-    width: 800px;
-    height: 400px;
-    position: relative
+    width: 400px;
+    height: 300px;
+    position: relative;
+   
 }
 
 .square {
     position: absolute;
     height: 240px;
-    width: 400px;
+    width: 90%;
     background-color: #0D31C0;
     opacity: 0.7;
     border-radius: 5px;
     margin-top: 20px;
-    margin-left: 60px;
+    margin-left: 10px;
     z-index: 10;
-    position: absolute;
- 
+    
 }
 
-.circle-row {
+.circle-who {
 
     height: 180px;
-    width: 180px;
+    width: 45%;
     background-color: #FFC300;
     opacity: 0.9;
     border-radius: 50%;
-    margin-top: 115px;
+    margin-top: -15px;
     z-index: 20;
     position: absolute;
     
-
 }
 
 .image-who {
-    height: 350px;
-    width: 600px;
+    height: 250px;
+    width: 90%;
     margin-top: 35px;
-    margin-left: 120px;
+    margin-left: 20px;
     position: absolute;
     z-index: 30;
     overflow: hidden;
-
-    /*opacity: 0;
-    transform: scale (0.9);
-    transition: .7s ease-in-out all;*/
     
 }
 
@@ -64,8 +60,9 @@ img .visible {
     transform: scale(1);
 }
 
-.descripcion {
-    margin: 15px;
+.descripcion-who {
+    
     padding: 15px;
+    margin: 40px;
+    
 }
-

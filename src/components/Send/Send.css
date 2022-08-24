@@ -4,60 +4,53 @@
 }
 
 .container-send {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 35px;
     padding: 40px;
+    justify-content: space-around;
 }
 
 .row-send {
-    width: 800px;
-    height: 400px;
-    position: relative
+    width: 400px;
+    height: 300px;
+    position: relative;
+
 }
 
 .square-send {
     position: absolute;
-    height: 240px;
-    width: 400px;
+    height: 180px;
+    width: 90%;
     background-color: #FFC300;
     opacity: 0.7;
     border-radius: 5px;
-    margin-top: 20px;
-    margin-left: 340px;
+    margin-top: 10px;
     z-index: 10;
-    position: absolute;
- 
+    margin-left: 20px;
+    
 }
 
 .circle-send {
 
-    height: 180px;
-    width: 180px;
+    height: 100px;
+    width: 100px;
     background-color: #0D31C0;
     opacity: 0.9;
     border-radius: 50%;
-    margin-top: 275px;
-    margin-left: 340px;
-    z-index: 20;
     position: absolute;
-    
+    margin-top: 120px;
+    margin-left: 75%;
 
 }
 
 .image-send {
-    height: 350px;
-    width: 600px;
-    margin-top: 35px;
-    margin-left: 120px;
+    height: 180px;
+    width: 90%;
     position: absolute;
     z-index: 30;
     overflow: hidden;
 
-    /*opacity: 0;
-    transform: scale (0.9);
-    transition: .7s ease-in-out all;*/
-    
 }
 
 img .visible {
@@ -68,5 +61,6 @@ img .visible {
 .descripcion {
     margin: 15px;
     padding: 15px;
+    width: 90%;
 }
 

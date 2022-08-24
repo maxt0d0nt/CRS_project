@@ -9,8 +9,8 @@ export const Footer = () => {
   return (
     <>
     <div className='container-footer' id="section-contact">
-      <div class="grid-footer">
-        <div class="g-col-6 g-col-md-4">
+      <div className="grid-footer">
+        <div className="g-col-6 g-col-md-4 text">
           <h3>Contactanos</h3>
           <h4>Argentina</h4>
           <p-1>WhatsApp < AiOutlineWhatsApp /></p-1>
@@ -28,7 +28,7 @@ export const Footer = () => {
           <p>E-mail < AiOutlineMail /></p>
           <p>mail@crs.com</p>
         </div>
-        <div class="g-col-6 g-col-md-4">
+        <div class="g-col-6 g-col-md-4 text">
         <h2>Oficinas</h2>
           <h4>Argentina</h4>
           <p-1>Calle siempre viva 4567</p-1>
@@ -46,7 +46,7 @@ export const Footer = () => {
         <div class="g-col-6 g-col-md-4">
         <h2>Redes Sociales</h2>
         <div className='icon'>
-        <a href="https://www.instagram.com/crsencomiendas/?hl=en" target="_blank">
+        <a href="https://www.instagram.com/crsencomiendas/?hl=en" target="_blank" rel="noreferrer" >
         < AiOutlineInstagram size={"60px"} />
         </a>
         </div>

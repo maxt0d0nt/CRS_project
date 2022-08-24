@@ -14,8 +14,8 @@ function App() {
   return (
     <>
     < NavBar />
-    
-    < Slider />
+   
+    < Slider /> 
 
     < BigIcons />
 
@@ -27,6 +27,7 @@ function App() {
 
     < Footer />
 
+  
     </>
   );
 }
