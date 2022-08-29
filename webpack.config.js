@@ -3,11 +3,8 @@ const path = require ('path');
 
 const ruleForImages = {
     test: /\.(png|jpe?g|gif)$/i,
-        use: [
-          {
-            loader: 'file-loader',
-          },
-        ]
+        
+    type: 'asset/resource',
 }
 
 const ruleForStyles = {

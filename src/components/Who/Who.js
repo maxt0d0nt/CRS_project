@@ -24,7 +24,9 @@ export const Who = () => {
         <div className='row-who' data-aos="fade-left">
             <div className='descripcion-who'>
                 <h2>¿Quienes Somos?</h2>
-                <p>Slorem ipsuum jdwjcebwko njdwckdodhcohc ldcncbjl</p>
+                <p>Somos una empresa de encomiendas internacionales que buscamos facilitar a nuestros clientes en el envio y entrega de sus paquetes desde un pais a otro. Nuestro personal altamente capacitado y profesional constituye la mejor garantía de calidad, eficiencia y rapidez en el servicio preferencial que diariamente se brinda a nuestros clientes.</p>
+
+                <p>Contamos con una gran experiencia en las actividades de transporte y almacenamiento a nivel internacional.La base de la excelencia e integralidad en la prestación de nuestros servicios es lograda por las diferentes unidades de negocio de nuestra estructura.</p>
             </div>
         </div>
     </div>
