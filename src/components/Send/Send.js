@@ -14,7 +14,7 @@ export const Send = () => {
   return (
     <>
     <div className='container-send' id='section-send'>
-        <div className='row-send' data-aos="fade-down-right">
+        <div className='row-send' data-aos="fade-down-left">
             <div className='descripcion'>
                 <h2>¿Que Puedes Enviar?</h2>
                 <p>Hacemos envios de alimentos, medicamentos, equipos electronicos, documentos, ariculos de higiene personal, vestimenta, entre otros</p>

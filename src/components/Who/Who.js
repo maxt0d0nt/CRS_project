@@ -14,14 +14,15 @@ export const Who = () => {
   return (
 
     <>
+    <article title='test'>lorem ipsum</article>
     <div className='container-who' id='section-who'>
-        <div className='row-who' data-aos="fade-right">
-            <div className='square'> </div>
+        <div className='row-who' data-aos="fade-up">
+            <div className='square' > </div>
             <div className='circle-who'></div>
             <img className="image-who" src={slider3} alt="Third slide" id='imagen1'/>
         </div>
 
-        <div className='row-who' data-aos="fade-left">
+        <div className='row-who' data-aos="fade-up">
             <div className='descripcion-who'>
                 <h2>¿Quienes Somos?</h2>
                 <p>Somos una empresa de encomiendas internacionales que buscamos facilitar a nuestros clientes en el envio y entrega de sus paquetes desde un pais a otro. Nuestro personal altamente capacitado y profesional constituye la mejor garantía de calidad, eficiencia y rapidez en el servicio preferencial que diariamente se brinda a nuestros clientes.</p>

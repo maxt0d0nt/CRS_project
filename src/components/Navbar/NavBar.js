@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { IconLogo, IconLogoMobile, Menu, MenuItem, MenuItemLinks, NavbarContainer, NavbarWrapper } from './NavBar_Elements';
 import { FaBars } from "react-icons/fa";
 import { FaRegTimesCircle } from "react-icons/fa";
-import logo from '../../Imagenes/logo crs.jpg'
+import logo from '../../Imagenes/logocrs.jpg'
 
 
 export const NavBar = () => {
